@@ -5,9 +5,8 @@
 // 918 -> 1
 System.Console.WriteLine("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
-int number1 = number / 10;
 int number2 = number % 100;
-int number3 = number2 / 10;
+int number3 = number2 /10;
 
 if (number < 1000)
 {
