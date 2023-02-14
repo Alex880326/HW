@@ -11,9 +11,13 @@ int number3 = number2 /10;
 if (number < 1000)
 {
     System.Console.WriteLine(number3);
-}
-else
-{
-    System.Console.WriteLine("Число не трехзначное, попробуйте еще раз ");
-}
+}    
+else 
+    {
+    if (number > 1000)
+        System.Console.WriteLine("Число не трехзначное, попробуйте еще раз ");
+        
+    }
+
+
 
